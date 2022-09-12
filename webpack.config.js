@@ -12,7 +12,7 @@ module.exports = {
     // },
     output: {
       path: path.resolve(__dirname, 'build'), // change this
-      publicPath: '/',
+      publicPath: 'https://fluffy-pika-3ce4e7.netlify.app/',
       filename: 'bundle.js'
     },
     module: {
