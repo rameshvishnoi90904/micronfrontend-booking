@@ -5,7 +5,7 @@ const Counter = () => {
     const handleIncrement = () => setCount(count + 1);
     const handleDecrement = () => setCount(count - 1);
     return (
-        <div className='counter'>
+        <div className='counter' style={{backgroundColor: 'green'}}>
             <h3>This is Counter App Module</h3>
             <p><strong>{count}</strong></p>
             <div>
